@@ -1,10 +1,42 @@
+.navBar {
+  background: #38ef7d; /* old browsers */
+  background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, safari 5.1-6 */
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  color: #fff;
+  display: block;
+}
+
+.search {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 97%;
+  display: block;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.viewBtn {
+  width: 100px;
+  height: 35px;
+  color: #fff;
+  font-size: 15px;
+  background: linear-gradient(to right,  #18AA8A, #38ef7d);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.viewBtn:hover {
+  background: linear-gradient(to right, #38ef7d, #18AA8A);
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 60px;
 }
 
 .App-header {
