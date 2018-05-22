@@ -44,15 +44,15 @@ class App extends Component {
   render() {
     return (
       <div>
-		<table className="navBar">
-			<tbody>
-				<tr>
-					<td> <img src={logo} className="App-logo" alt="logo" /> </td>
-					<td><h1>Movie API Search</h1></td>
-				</tr>
-			</tbody>
-		</table>
-		<input onChange={this.searchChangeHandler.bind(this)} className="search" placeholder="Search..."/>
+				<table className="navBar">
+					<tbody>
+						<tr>
+							<td> <img src={logo} className="App-logo" alt="logo" /> </td>
+							<td><h1>Movie API Search</h1></td>
+						</tr>
+					</tbody>
+				</table>
+				<input onChange={this.searchChangeHandler.bind(this)} className="search" placeholder="Search..."/>
 
 		{this.state.rows}
 
