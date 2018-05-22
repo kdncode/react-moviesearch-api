@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MyMovie from './MyMovie';
-import $ from 'jquery'
+import $ from 'jquery';
 
 class App extends Component {
   constructor(props) {
