@@ -17,7 +17,7 @@ class App extends Component {
 		$.ajax({ 
 			url: urlString,
 			success: (searchResults) => { 
-				const results = searchResults.results
+				const results = searchResults.results;
 				
 				var movieRows = [];
 				
@@ -34,7 +34,7 @@ class App extends Component {
 	}
 
 	searchChangeHandler(event) {
-		console.log(event.target.value)
+		console.log(event.target.value);
 		const boundObject = this
 		const searchTerm = event.target.value
 		boundObject.performSearch(searchTerm)
